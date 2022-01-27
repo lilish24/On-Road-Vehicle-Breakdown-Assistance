@@ -1,0 +1,44 @@
+<html>
+<head>
+<link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="form.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="regstyle.css">
+</head>
+<body>
+<div class="body-content">
+  <div class="module">
+    <h1>Create an account</h1>
+    <form class="form" action="insertuser.php" method="post">
+      <div class="alert alert-error"></div>
+
+      <input type="text" placeholder="Licence ID" name="userid" required />
+
+      <input type="text" placeholder="Enter Name" name="name" required />
+
+      <input type="text"  placeholder="Enter Mobile Number" name= "mobile"=required/>
+
+      <input type="email" placeholder="Enter Email  ID" name="email" required />
+
+      <select name="location" type="select" style="color: rgba(255, 255, 255, 0.7);">
+
+        <option value="" style="color: rgba(255, 255, 255, 0.7);">select location</option>
+        <option value="pune">Pune</option>
+        <option value="Pimpri">Pimpri</option>
+        <option value="chinchwad">Chinchwad
+          </option> 
+        </select>
+      
+      <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
+
+      <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
+
+      <div class="avatar"><label>Please Upload Licence : </label><input type="file" name="img" accept="image/*" required /></div>
+
+
+      <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
+
+    </form>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+ body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+  h3, h4 {
+    margin: 55px 0 30px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: #111;
+  }
+  .container1 {
+    padding: 80px 120px;
+  }
+  
+
+  
+#pricelist 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#pricelist td, #pricelist th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#pricelist:nth-child(even){background-color: #f2f2f2;}
+
+#pricelist tr:hover {background-color: #ddd;}
+
+#pricelist th 
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+  
+  
+
+  .nav-tabs li a {
+    color: #777;
+  }
+  #googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }  
+  .navbar 
+  {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: black;
+    border: 0;
+    font-size: 10px;
+    letter-spacing: 4px;
+    opacity: 0.9;
+
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+    font-size: 15px !important;
+
+  }
+
+
+   .navbar-brand li a :hover
+   { 
+    background-color: #ff0000!important;
+
+  }
+  .navbar-nav li a:hover
+   {
+    background-color: #ff0000!important;
+   
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open.dropdown-toggle 
+  {
+    color: #fff;
+    background-color:  #f5f5f5!important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+
+
+  
+.facebook{
+  
+  background-color: #3b5998;
+   border-radius: 50px; 
+   color: black;
+   width: 100px;
+  height: 50px;
+}
+
+.twitter{
+  
+  background-color: #00acee;
+   border-radius: 50px;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+
+.instagram{
+  
+  background-color: #3f729b;
+   border-radius: 50px;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+.google{
+
+  background-color: white;
+   border-radius: 50px;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+.rightform form label{
+  font-size: 2em;
+  color: #333;
+  display: block;
+  margin-top: 15px;
+}
+
+.rightform form input{
+  width: 100%;
+  border: none;
+  padding: 10px 10px;
+  border-bottom: 2px solid #333;
+}
+.icon
+{
+  size:   50;
+}
+
+footer{
+  background-color: black;
+}
+
+
+
+
+
+
+
+.radio-inline{
+  margin: 0px 40px 20px 0px;
+  cursor: pointer;
+}
+
+label{
+  color: #000;
+}
+
+#text{
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  color: #000;
+}
+
+#message{
+  outline: none;
+  border: none;
+  padding: 10px 0px 0px 15px;
+  font-size: 16px;
+  color:#000;
+  border-radius: 5px;
+  width: 100%
+}
+
